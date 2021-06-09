@@ -56,6 +56,12 @@
 		2B323C8F2670C79D00236156 /* SpaceShip */ = {
 			isa = PBXGroup;
 			children = (
+				2B323CAD2670C8C500236156 /* Cockpit */,
+				2B323CAC2670C8C100236156 /* Engine */,
+				2B323CAB2670C8BC00236156 /* Fuel */,
+				2B323CAA2670C8B500236156 /* Electrical */,
+				2B323CA92670C8A800236156 /* Control */,
+				2B323CA82670C89400236156 /* Access */,
 				2B323C902670C79D00236156 /* AppDelegate.swift */,
 				2B323C922670C79D00236156 /* SceneDelegate.swift */,
 				2B323C942670C79D00236156 /* ViewController.swift */,
@@ -65,6 +71,48 @@
 				2B323C9E2670C79D00236156 /* Info.plist */,
 			);
 			path = SpaceShip;
+			sourceTree = "<group>";
+		};
+		2B323CA82670C89400236156 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		2B323CA92670C8A800236156 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		2B323CAA2670C8B500236156 /* Electrical */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Electrical;
+			sourceTree = "<group>";
+		};
+		2B323CAB2670C8BC00236156 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
+		2B323CAC2670C8C100236156 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2B323CAD2670C8C500236156 /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cockpit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
