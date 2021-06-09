@@ -13,6 +13,9 @@
 		2B323C982670C79D00236156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B323C962670C79D00236156 /* Main.storyboard */; };
 		2B323C9A2670C79D00236156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B323C992670C79D00236156 /* Assets.xcassets */; };
 		2B323C9D2670C79D00236156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B323C9B2670C79D00236156 /* LaunchScreen.storyboard */; };
+		2B323CB02670CAC900236156 /* Engine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B323CAF2670CAC900236156 /* Engine.storyboard */; };
+		2B323CB32670CB0900236156 /* EngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B323CB22670CB0900236156 /* EngineViewController.swift */; };
+		2B323CB62670CC6100236156 /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B323CB52670CC6100236156 /* Access.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2B323C992670C79D00236156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B323C9C2670C79D00236156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B323C9E2670C79D00236156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B323CAF2670CAC900236156 /* Engine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Engine.storyboard; sourceTree = "<group>"; };
+		2B323CB22670CB0900236156 /* EngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineViewController.swift; sourceTree = "<group>"; };
+		2B323CB52670CC6100236156 /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +62,14 @@
 		2B323C8F2670C79D00236156 /* SpaceShip */ = {
 			isa = PBXGroup;
 			children = (
+				2B323CA82670C89400236156 /* Access */,
 				2B323CAD2670C8C500236156 /* Cockpit */,
 				2B323CAC2670C8C100236156 /* Engine */,
 				2B323CAB2670C8BC00236156 /* Fuel */,
 				2B323CAA2670C8B500236156 /* Electrical */,
 				2B323CA92670C8A800236156 /* Control */,
-				2B323CA82670C89400236156 /* Access */,
 				2B323C902670C79D00236156 /* AppDelegate.swift */,
 				2B323C922670C79D00236156 /* SceneDelegate.swift */,
-				2B323C942670C79D00236156 /* ViewController.swift */,
-				2B323C962670C79D00236156 /* Main.storyboard */,
 				2B323C992670C79D00236156 /* Assets.xcassets */,
 				2B323C9B2670C79D00236156 /* LaunchScreen.storyboard */,
 				2B323C9E2670C79D00236156 /* Info.plist */,
@@ -76,6 +80,7 @@
 		2B323CA82670C89400236156 /* Access */ = {
 			isa = PBXGroup;
 			children = (
+				2B323CB52670CC6100236156 /* Access.swift */,
 			);
 			path = Access;
 			sourceTree = "<group>";
@@ -83,6 +88,8 @@
 		2B323CA92670C8A800236156 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				2B323C942670C79D00236156 /* ViewController.swift */,
+				2B323C962670C79D00236156 /* Main.storyboard */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -104,6 +111,8 @@
 		2B323CAC2670C8C100236156 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				2B323CAF2670CAC900236156 /* Engine.storyboard */,
+				2B323CB22670CB0900236156 /* EngineViewController.swift */,
 			);
 			path = Engine;
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 			files = (
 				2B323C9D2670C79D00236156 /* LaunchScreen.storyboard in Resources */,
 				2B323C9A2670C79D00236156 /* Assets.xcassets in Resources */,
+				2B323CB02670CAC900236156 /* Engine.storyboard in Resources */,
 				2B323C982670C79D00236156 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +197,8 @@
 			files = (
 				2B323C952670C79D00236156 /* ViewController.swift in Sources */,
 				2B323C912670C79D00236156 /* AppDelegate.swift in Sources */,
+				2B323CB32670CB0900236156 /* EngineViewController.swift in Sources */,
+				2B323CB62670CC6100236156 /* Access.swift in Sources */,
 				2B323C932670C79D00236156 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
